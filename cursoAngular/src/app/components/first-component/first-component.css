@@ -1,3 +1,5 @@
-h1{
-    color: blue;
+* {
+    background-color: aquamarine;
+    color: black;
+    border: 2px solid rgb(0, 207, 128);
 }

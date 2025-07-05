@@ -7,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrl: './first-component.css'
 })
 export class FirstComponent {
-
-}
+  name : string = "Luan";
+  age : number = 19;
+  job : string = "Desenvolvedor";
+  hobbies = ["Run", "Code", "Gym", 'Swimming']
+  car = {
+    name: "Polo",
+    year: "1998"
+  }
+}   

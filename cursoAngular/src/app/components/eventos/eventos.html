@@ -1,0 +1,12 @@
+<p>eventos works!</p>
+<h2 *ngIf="show">Exibindo mensagem!</h2>
+<button (click)="showMessage()">Clique para exibir ou inibir</button>
+<!-- Evento de CLICK, que aciona o método showMessage() -->
+<button (click)="showFruits()">Teste 1 - H2's</button>
+<h2 *ngFor="let fruta of listaFrutas">{{ fruta }}</h2>
+<br><br>
+
+<button (click)="waterWine()">Jesus</button>
+<!---Botão aciona o método waterWine() -->
+<!---Que muda a classe do <p> e altera o estilo do mesmo -->
+<p [ngClass]="{ 'vinho': isAtivo, 'agua': !isAtivo }">{{ liquid }}</p>

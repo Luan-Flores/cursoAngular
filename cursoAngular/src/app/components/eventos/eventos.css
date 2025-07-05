@@ -1,0 +1,10 @@
+.vinho{
+    background-color: rgb(68, 0, 0);
+    color: white;
+    font-size: 2em;
+}
+.agua{
+    background-color: aqua;
+    color: rgb(0, 64, 119);
+    font-size: 1em;
+}
